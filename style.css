@@ -257,12 +257,12 @@ h3 {
 /* ABOUT US */
 
 /* #productsのマージンと#aboutsのマージンが相殺されている気がするが、問題ないのか */
-#abouts {
+#aboutus {
   margin: 80px auto;
 } 
 
 /* 子要素を横並びにするため、flexを指定する */
-#abouts > div {
+#aboutus > div {
   display: flex;
 }
 
@@ -918,11 +918,11 @@ background-position-y: center;
    }
 
    /* ABOUT US */
-   #abouts {
+   #aboutus {
     margin: 80px 20px;
    }
 
-   #abouts div {
+   #aboutus div {
     flex-direction: column;
    }
 
